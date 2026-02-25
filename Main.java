@@ -1,9 +1,9 @@
-public class Main{
-    
-	public static void main(String[] args) {
-	    
-		System.out.println("Hello World!");
-		System.out.println("Minha idade é: "+ 42 +" anos.");
-		System.out.println("o resultado é: " + (3+5 <=22));
-	}
+// Guilherme Duarte de Barros
+
+public class Main {
+    public static void main (String [] args){
+        System.out.println("Hello World!");
+        System.out.println ("Minha idade é: " + 42 + "anos.");
+        System.out.println ("O resultado é: " + (3+5 <= 22));
+    }
 }
