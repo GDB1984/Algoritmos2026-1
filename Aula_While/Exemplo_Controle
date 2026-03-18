@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Controle {
+    public static void main (String [] args){
+        Scanner entrada = new Scanner(System.in);
+        int resposta;// declarar a variavel de controle
+        String nome;
+        int idade;
+        resposta = 1; // inicializar a variavel de controle
+
+        while(resposta ==1){
+
+            System.out.println("Digite o seu nome: ");
+            nome = entrada.nextLine();
+
+            System.out.println("Digite a sua idade: ");
+            idade = entrada.nextInt();
+
+
+            if (idade >= 18){
+                System.out.println("Seu nome é: "+nome);
+            }
+            
+            System.out.println("Deseja continuar? Digite 1 para, se sim. Digite 0, caso deseje encerrar.");
+            resposta = entrada.nextInt();
+            entrada.nextLine();
+        }
+        entrada.close();
+    }
+}
